@@ -67,6 +67,8 @@ body {
 .navItem a {
     text-decoration: none;
     color: black;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .navItem h2 {
