@@ -59,16 +59,17 @@ body {
 }
 
 .navItem {
+    position: relative;
     height: 100%;
     font-size: 1.5vw;
     font-family: 'McLaren', cursive;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .navItem a {
     text-decoration: none;
-    color: red;
-    top: 50%;
-    transform: translateY(-50%);
+    color: black;
 }
 
 .navItem h2 {
