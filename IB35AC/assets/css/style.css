@@ -38,10 +38,9 @@ body {
 
 #carousel-controls {
 position: absolute;
-top: 0%;
-left: -80%;
+top: 200px;
 /* transform: translateY(-50%,-50%); */
-width: 100%;
+width: 600px;
 display: flex;
 justify-content: space-between;
 z-index: 1;
@@ -53,8 +52,6 @@ z-index: 1;
   border: none;
   cursor: pointer;
   outline: none;
-  scale: 15%;
-
 }
 
 h1, h2, h3 {
